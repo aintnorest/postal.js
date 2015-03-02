@@ -1,40 +1,50 @@
 {
   "name": "postal",
   "description": "Pub/Sub library providing wildcard subscriptions, complex message handling, etc.  Works server and client-side.",
-  "version": "1.0.0",
+  "version": "0.12.2",
   "homepage": "http://github.com/postaljs/postal.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/postaljs/postal.js.git"
   },
-  "author": "Jim Cowart (http://ifandelse.com)",
+  "author": {
+    "name": "Jim Cowart",
+    "url": "http://ifandelse.com"
+  },
   "contributors": [
     {
       "name": "Jim Cowart",
+      "email": "WhyNotJustComment@OnMyBlog.com",
       "url": "http://ifandelse.com"
     },
     {
       "name": "Alex Robson",
-      "url": "http://nerdventure.io"
+      "email": "WhyNotJustComment@OnMyBlog.com",
+      "url": "http://freshbrewedcode.com/alexrobson"
     },
     {
       "name": "Nicholas Cloud",
+      "email": "WhyNotJustComment@OnMyBlog.com",
       "url": "http://nicholascloud.com"
     },
     {
       "name": "Doug Neiner",
+      "email": "WhyNotJustComment@OnMyBlog.com",
       "url": "http://dougneiner.com"
     },
     {
       "name": "Jonathan Creamer",
+      "email": "WhyNotJustComment@OnMyBlog.com",
       "url": "http://freshbrewedcode.com/jonathancreamer"
     },
     {
       "name": "Elijah Manor",
+      "email": "WhyNotJustComment@OnMyBlog.com",
       "url": "http://www.elijahmanor.com"
     },
     {
       "name": "Ger Hobbelt",
+      "email": "ger@hobbelt.com",
       "url": "http://hebbut.net/"
     },
     {
@@ -52,10 +62,6 @@
     {
       "name": "Anthony van der Hoorn",
       "url": "http://blog.anthonyvanderhoorn.com/"
-    },
-    {
-      "name": "John-David Dalton",
-      "url": "http://www.allyoucanleet.com"
     }
   ],
   "keywords": [
@@ -71,8 +77,8 @@
     "envelope"
   ],
   "bugs": {
-    "email": "PleaseJustUseTheIssuesPage@github.com",
-    "url": "http://github.com/postaljs/postal.js/issues"
+    "url": "http://github.com/postaljs/postal.js/issues",
+    "email": "PleaseJustUseTheIssuesPage@github.com"
   },
   "directories": {
     "lib": "lib"
@@ -82,7 +88,7 @@
     "node": ">=0.4.0"
   },
   "dependencies": {
-    "lodash": "~3.1.0"
+    "lodash": "~2.4.1"
   },
   "devDependencies": {
     "bower": "~1.2.8",
@@ -114,7 +120,6 @@
   "scripts": {
     "build": "gulp",
     "test": "./node_modules/mocha/bin/mocha -r spec/helpers/node-setup.js spec",
-    "test-lodash": "./node_modules/mocha/bin/mocha -r spec/helpers/node-lodash-build-setup.js spec",
     "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -x 'spec/**/*'  -- -r spec/helpers/node-setup.js spec spec/*.spec.js",
     "show-coverage": "open ./coverage/lcov-report/index.html",
     "start": "gulp server"
@@ -122,5 +127,25 @@
   "files": [
     "lib",
     "LICENSE"
-  ]
+  ],
+  "gitHead": "3c37478c1c4977213baaeefcde633eac40d235d7",
+  "_id": "postal@0.12.2",
+  "_shasum": "becdb7c9522b7c00f6f4b7f54c1ee9c5ced0a1d9",
+  "_from": "postal@",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "ifandelse",
+    "email": "jim@ifandelse.com"
+  },
+  "maintainers": [
+    {
+      "name": "ifandelse",
+      "email": "jim@ifandelse.com"
+    }
+  ],
+  "dist": {
+    "shasum": "becdb7c9522b7c00f6f4b7f54c1ee9c5ced0a1d9",
+    "tarball": "http://registry.npmjs.org/postal/-/postal-0.12.2.tgz"
+  },
+  "_resolved": "https://registry.npmjs.org/postal/-/postal-0.12.2.tgz"
 }
